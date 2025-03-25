@@ -3,8 +3,7 @@
 let cont=0
 
 for(let i=3;
-    cont<20; i+=3
-){
+    cont<20; i+=3){
     console.log(i)
     cont++
 }
