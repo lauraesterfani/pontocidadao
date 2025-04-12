@@ -29,13 +29,13 @@ const b=8
 const c=6
 const d=9
 let cont=0
-function pares(numero){
+function impar(numero){
     if(numero%2!==0){
         cont++
     }
     return cont
 }
-console.log(pares(a))
-console.log(pares(b))
-console.log(pares(c))
-console.log(pares(d))
+console.log(impar(a))
+console.log(impar(b))
+console.log(impar(c))
+console.log(impar(d))
