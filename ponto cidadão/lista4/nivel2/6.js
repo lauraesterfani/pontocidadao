@@ -21,3 +21,21 @@ function pares(a,b,c,d){
     return cont
 }
 console.log(pares(1,2,3,4))
+
+//ou
+
+const a=5
+const b=8
+const c=6
+const d=9
+let cont=0
+function pares(numero){
+    if(numero%2==0){
+        cont++
+    }
+    return cont
+}
+console.log(pares(a))
+console.log(pares(b))
+console.log(pares(c))
+console.log(pares(d))
