@@ -17,6 +17,6 @@ function mediadeles(vetor){
     return cont
 }
 
-let vetorn=[5,8,9,2]
+let vetor=[5,8,9,2]
 let quantos=mediadeles(vetorn)
 console.log(quantos)

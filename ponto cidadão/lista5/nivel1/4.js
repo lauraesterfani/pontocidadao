@@ -9,8 +9,8 @@ function impar(vetor){
     }
     return cont
 }
-let vetorn=[1,2,3,4,5,6]
+let vetor=[1,2,3,4,5,6]
 
-let imparn=impar(vetorn)
+let imparn=impar(vetor)
 
 console.log(imparn)

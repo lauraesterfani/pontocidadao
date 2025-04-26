@@ -9,8 +9,8 @@ function somar(vetor){
     return soma
 }
 
-const numeros=[1,2,3,4,5,6]
+const vetor=[1,2,3,4,5,6]
 
-const result=somar(numeros)
 
-console.log("a soma dos elementos é:"+result)
+
+console.log("a soma dos elementos é:"+somar(vetor))

@@ -13,6 +13,6 @@ function verdade(vetor){
     }
 }
 
-let vetorn=[5,8,9,6,2]
+let vetor=[5,8,9,6,2]
 let somar=verdade(vetorn)
 console.log(somar)

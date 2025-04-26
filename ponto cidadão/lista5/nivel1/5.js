@@ -10,7 +10,7 @@
     return cont
  }
  
- let pares=[1,5,8,2,6]
+ let vetor=[1,5,8,2,6]
 
  let paresn=par(pares)
 

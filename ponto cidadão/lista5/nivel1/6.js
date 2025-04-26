@@ -8,10 +8,10 @@ function subtrair(vetor,numero){
     return vetor
 }
 
-let vetoratual=[1,5,8,6,5]
+let vetor=[1,5,8,6,5]
 
-let number=5
+let numero=5
 
-let result= subtrair(vetoratual,number)
+let result= subtrair(vetor,numero)
 
 console.log(result)

@@ -1,15 +1,13 @@
 //Implementar um subprograma que dados um vetor e um número, multiplica cada elemento do vetor pelo número recebido como parâmetro;
 
-function multiplicar(vetor,numero){
+function multiplicar(vetor,numero=3){
     for(let i=0;i<vetor.length;i++){
         vetor[i]=vetor[i]*numero
     }
-    return vetor
 }
 
-let vetoratual=[1,2,3,4,5,6]
-let mutiplicador=3
+let vetor=[1,2,3,4,5,6]
 
-let resultado= multiplicar(vetoratual,mutiplicador)
+ multiplicar(vetor)
 
-console.log(resultado)
+console.log(vetor)

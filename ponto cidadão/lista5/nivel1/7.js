@@ -7,10 +7,10 @@ function dividir(vetor,numero){
     return vetor
 }
 
-let vetoratual=[1,6,8,3,8]
+let vetor=[1,6,8,3,8]
 
-let divisor=5
+let numero=5
 
-let result=dividir(vetoratual, divisor)
+let result=dividir(vetor, numero)
 
 console.log(result)
